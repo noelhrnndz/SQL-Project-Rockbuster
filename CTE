@@ -1,0 +1,15 @@
+Common Table Expressions
+
+# Find the average amount paid by the top 5 customers using CTE
+
+WITH average_amount_cte (customer_id, first_name, last_name, city, country) AS
+	(SELECT
+		A.customer_id,
+		A.first_name,
+		A.last_name,
+		D.country,
+		C.city,
+		SUM(B.amount) AS total_amount_paid
+	FROM customer A
+	JOIN payment B ON A.customer_id = B.customer_id
+	JOIN address
