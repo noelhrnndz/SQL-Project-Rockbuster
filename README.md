@@ -14,3 +14,5 @@ Questions to ask:
 <br>● Which countries are Rockbuster customers based in?
 <br>● Where are customers with a high lifetime value based?
 
+Data:
+The dataset was provided by CareerFoundry Data Analysis Bootcamp. Dataset includes information about Rockbuster's customers, films, stores, employees, payments, and rental history.
