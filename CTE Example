@@ -1,4 +1,4 @@
-# Using Common Expression Tables, find the count of the top 5 customers living in each country and the amount paid by them.
+# Using Common Table Expressions, find the count of the top 5 customers living in each country and the amount paid by them.
 
 --Find average amount paid by top 5 customers.
 
