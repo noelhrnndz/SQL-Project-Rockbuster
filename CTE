@@ -27,3 +27,5 @@ ORDER BY total_amount_paid DESC
 LIMIT 5)
 SELECT AVG(total_amount_paid) AS average
 FROM average_amount_cte
+
+![Screenshot of avg returned](file:///C:/Users/X1/Downloads/image%201.svg)
