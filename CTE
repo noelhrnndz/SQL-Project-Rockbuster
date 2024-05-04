@@ -28,5 +28,4 @@ LIMIT 5)
 SELECT AVG(total_amount_paid) AS average
 FROM average_amount_cte
 
-![Screenshot of avg returned](![image](https://github.com/noelhrnndz/SQL_Project_Rockbuster/assets/147015154/6e1c07ea-a65c-4c85-a62f-de6d92cf6898)
-)
+![image](https://github.com/noelhrnndz/SQL_Project_Rockbuster/assets/147015154/6e1c07ea-a65c-4c85-a62f-de6d92cf6898)
