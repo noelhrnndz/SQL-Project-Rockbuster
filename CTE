@@ -28,4 +28,4 @@ LIMIT 5)
 SELECT AVG(total_amount_paid) AS average
 FROM average_amount_cte
 
-![Screenshot of avg returned](file:///C:/Users/X1/Downloads/image%201.svg)
+![Screenshot of avg returned](file:///C:/Users/X1/Downloads/image%201.pdf)
