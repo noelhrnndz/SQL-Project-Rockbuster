@@ -73,16 +73,15 @@ LEFT JOIN
 		ORDER BY COUNT(B.customer_id) DESC
 		LIMIT 10
 		)
-		GROUP BY
-		B.customer_id,
-		B.first_name,
-		B.last_name,
-		E.country,
-		D.city
-		ORDER BY SUM(A.amount) DESC
-		LIMIT 5)top_5_customers ON B.customer_id =
-		top_5_customers.customer_id
-		GROUP BY E.country
-		ORDER BY all_customer_count DESC
-		LIMIT 5
+	GROUP BY
+	B.customer_id,
+	B.first_name,
+	B.last_name,
+	E.country,
+	D.city
+	ORDER BY SUM(A.amount) DESC
+	LIMIT 5) top_5_customers ON B.customer_id = top_5_customers.customer_id
+	GROUP BY E.country
+	ORDER BY all_customer_count DESC
+	LIMIT 5
 		
